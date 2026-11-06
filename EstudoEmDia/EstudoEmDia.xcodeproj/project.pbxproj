@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0854B87C0D65028391EB5915 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDDD7D03824C626BCFDF2C /* NotificationService.swift */; };
+		0941E5BCD5B222534B95389D /* NotificationStatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA26CD9362644D7290BB8BE /* NotificationStatusSection.swift */; };
+		1E10351107754AD92EEACD9A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F3322849C5A9D6917B7F9C77 /* FirebaseMessaging */; };
+		3AEB2FF586E75781A6FA4C5D /* EstudoEmDiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC42F88B3CB6619496492B7D /* EstudoEmDiaApp.swift */; };
+		4D55DF0F80F4E523D5D1188B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198D59BF676486F57A7CE28D /* HomeView.swift */; };
+		61DDE7F0C503332B3B035486 /* TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EA330EBFDF7A2406FCA302 /* TopicDetailView.swift */; };
+		94B4A5106A3F66CA3F708ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA80D3164864833D426590A /* Assets.xcassets */; };
+		A522D9351B5F0C037A41F594 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A79506EE3B4FDCF58B995198 /* FirebaseMessaging */; };
+		AB8DF8626F2EF0EC14773E96 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8DB1B1716AFD86DDC41A512B /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4D798AC44EA2D6A89076253 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD88803ECCCE758D42C81DD /* FirebaseCore */; };
+		BD3499D30BA3F6BEAC2A1567 /* NotificationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372700D48D16AD463DC2E640 /* NotificationRouter.swift */; };
+		D66AAF47BEF22ED040F17AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8017C11E225CBCDE06FA5BA /* AppDelegate.swift */; };
+		E5F834CBE4162A559C2F2FCD /* StudyTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6518C8C36F7ED1526DD2306 /* StudyTopic.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5D7BAE37DC5CFED78525365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DF8BFE69297AD84EDF469F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5D7951B59B4590A08B2B63;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2D7A41D71AE97F9195B13AC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB8DF8626F2EF0EC14773E96 /* NotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		198D59BF676486F57A7CE28D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		325849F0509D85A11DA55BA6 /* EstudoEmDia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EstudoEmDia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372700D48D16AD463DC2E640 /* NotificationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRouter.swift; sourceTree = "<group>"; };
+		536BECC46C94DD7996A67399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7FF997D8B869B9BE87D9A337 /* EstudoEmDia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EstudoEmDia.entitlements; sourceTree = "<group>"; };
+		80CDDD7D03824C626BCFDF2C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8DB1B1716AFD86DDC41A512B /* NotificationService.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8017C11E225CBCDE06FA5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC42F88B3CB6619496492B7D /* EstudoEmDiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstudoEmDiaApp.swift; sourceTree = "<group>"; };
+		C4EA330EBFDF7A2406FCA302 /* TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailView.swift; sourceTree = "<group>"; };
+		E6518C8C36F7ED1526DD2306 /* StudyTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTopic.swift; sourceTree = "<group>"; };
+		EAA26CD9362644D7290BB8BE /* NotificationStatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStatusSection.swift; sourceTree = "<group>"; };
+		F1E5D2433D81D4D84CEBEA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAA80D3164864833D426590A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556DB74A5327D8B80BC86578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E10351107754AD92EEACD9A /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DF30916D76ECF1440FB9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D798AC44EA2D6A89076253 /* FirebaseCore in Frameworks */,
+				A522D9351B5F0C037A41F594 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E79A4BC124AE2BFAC71CFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6518C8C36F7ED1526DD2306 /* StudyTopic.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9811BE3CC58CEE8D2635C69C /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5D2433D81D4D84CEBEA60 /* Info.plist */,
+				80CDDD7D03824C626BCFDF2C /* NotificationService.swift */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		BF0DF92F5EBA233530C814BB = {
+			isa = PBXGroup;
+			children = (
+				F5AD6C1C7CC14181C2933AB4 /* EstudoEmDia */,
+				9811BE3CC58CEE8D2635C69C /* NotificationService */,
+				C382815BECF98CC7F5E27A1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C382815BECF98CC7F5E27A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325849F0509D85A11DA55BA6 /* EstudoEmDia.app */,
+				8DB1B1716AFD86DDC41A512B /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E607CD482616EAC694A83419 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				198D59BF676486F57A7CE28D /* HomeView.swift */,
+				EAA26CD9362644D7290BB8BE /* NotificationStatusSection.swift */,
+				C4EA330EBFDF7A2406FCA302 /* TopicDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5AD6C1C7CC14181C2933AB4 /* EstudoEmDia */ = {
+			isa = PBXGroup;
+			children = (
+				A8017C11E225CBCDE06FA5BA /* AppDelegate.swift */,
+				FAA80D3164864833D426590A /* Assets.xcassets */,
+				7FF997D8B869B9BE87D9A337 /* EstudoEmDia.entitlements */,
+				BC42F88B3CB6619496492B7D /* EstudoEmDiaApp.swift */,
+				536BECC46C94DD7996A67399 /* Info.plist */,
+				372700D48D16AD463DC2E640 /* NotificationRouter.swift */,
+				65E79A4BC124AE2BFAC71CFD /* Models */,
+				E607CD482616EAC694A83419 /* Views */,
+			);
+			path = EstudoEmDia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25621D2B1CFD6FEA7A75F32B /* EstudoEmDia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD18F3E4529E532E6335FD7 /* Build configuration list for PBXNativeTarget "EstudoEmDia" */;
+			buildPhases = (
+				4A8DCD3668AB3486AB4E3F40 /* Sources */,
+				8F54C467B75BF3834F47BD04 /* Copiar GoogleService-Info.plist (opcional) */,
+				C16F2D20E6BE4D942CEFC466 /* Resources */,
+				59DF30916D76ECF1440FB9D0 /* Frameworks */,
+				B2D7A41D71AE97F9195B13AC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4005FA38A126CF41133630FA /* PBXTargetDependency */,
+			);
+			name = EstudoEmDia;
+			packageProductDependencies = (
+				7BD88803ECCCE758D42C81DD /* FirebaseCore */,
+				A79506EE3B4FDCF58B995198 /* FirebaseMessaging */,
+			);
+			productName = EstudoEmDia;
+			productReference = 325849F0509D85A11DA55BA6 /* EstudoEmDia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB5D7951B59B4590A08B2B63 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6F8AFA1E4FDCFD4B02AD3F /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				D850D87A6A87E8016D1620FE /* Sources */,
+				556DB74A5327D8B80BC86578 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			packageProductDependencies = (
+				F3322849C5A9D6917B7F9C77 /* FirebaseMessaging */,
+			);
+			productName = NotificationService;
+			productReference = 8DB1B1716AFD86DDC41A512B /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DF8BFE69297AD84EDF469F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					25621D2B1CFD6FEA7A75F32B = {
+						DevelopmentTeam = X8Q64G6VT8;
+						ProvisioningStyle = Automatic;
+					};
+					EB5D7951B59B4590A08B2B63 = {
+						DevelopmentTeam = X8Q64G6VT8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CE75566D11EA99A26C9CDD0 /* Build configuration list for PBXProject "EstudoEmDia" */;
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"pt-BR",
+			);
+			mainGroup = BF0DF92F5EBA233530C814BB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C363C34EB11B79B3AA9815E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C382815BECF98CC7F5E27A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25621D2B1CFD6FEA7A75F32B /* EstudoEmDia */,
+				EB5D7951B59B4590A08B2B63 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16F2D20E6BE4D942CEFC466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B4A5106A3F66CA3F708ADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F54C467B75BF3834F47BD04 /* Copiar GoogleService-Info.plist (opcional) */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copiar GoogleService-Info.plist (opcional)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SRC=\"${SRCROOT}/EstudoEmDia/GoogleService-Info.plist\"\nif [ -f \"$SRC\" ]; then\n  cp \"$SRC\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nelse\n  echo \"warning: GoogleService-Info.plist ausente; o app abre, mas sem push.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8DCD3668AB3486AB4E3F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66AAF47BEF22ED040F17AFD /* AppDelegate.swift in Sources */,
+				3AEB2FF586E75781A6FA4C5D /* EstudoEmDiaApp.swift in Sources */,
+				4D55DF0F80F4E523D5D1188B /* HomeView.swift in Sources */,
+				BD3499D30BA3F6BEAC2A1567 /* NotificationRouter.swift in Sources */,
+				0941E5BCD5B222534B95389D /* NotificationStatusSection.swift in Sources */,
+				E5F834CBE4162A559C2F2FCD /* StudyTopic.swift in Sources */,
+				61DDE7F0C503332B3B035486 /* TopicDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D850D87A6A87E8016D1620FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0854B87C0D65028391EB5915 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4005FA38A126CF41133630FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5D7951B59B4590A08B2B63 /* NotificationService */;
+			targetProxy = D5D7BAE37DC5CFED78525365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1606CE0AB314F630AF1BC689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EstudoEmDia/EstudoEmDia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EstudoEmDia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Estudo em Dia";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasmaues.estudoemdia;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		42F9F9508CBF13F2D640BEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Estudo em Dia";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasmaues.estudoemdia.NotificationService;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5726FAF797E13AC990C52CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X8Q64G6VT8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A2BA59259C63B89E05D38DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X8Q64G6VT8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD43F6DE5C0B46A2F24B25D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EstudoEmDia/EstudoEmDia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EstudoEmDia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Estudo em Dia";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasmaues.estudoemdia;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D64F7C82F5092834B284419A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Estudo em Dia";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucasmaues.estudoemdia.NotificationService;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE75566D11EA99A26C9CDD0 /* Build configuration list for PBXProject "EstudoEmDia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5726FAF797E13AC990C52CED /* Debug */,
+				7A2BA59259C63B89E05D38DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5A6F8AFA1E4FDCFD4B02AD3F /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F9F9508CBF13F2D640BEC4 /* Debug */,
+				D64F7C82F5092834B284419A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DD18F3E4529E532E6335FD7 /* Build configuration list for PBXNativeTarget "EstudoEmDia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD43F6DE5C0B46A2F24B25D5 /* Debug */,
+				1606CE0AB314F630AF1BC689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C363C34EB11B79B3AA9815E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BD88803ECCCE758D42C81DD /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C363C34EB11B79B3AA9815E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A79506EE3B4FDCF58B995198 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C363C34EB11B79B3AA9815E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		F3322849C5A9D6917B7F9C77 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C363C34EB11B79B3AA9815E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 82DF8BFE69297AD84EDF469F /* Project object */;
+}
